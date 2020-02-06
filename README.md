@@ -12,3 +12,5 @@ Simple Example to get temperature and humidity values using Python application d
 ### [04-Control Devices Using Python Over Internet MQTT](https://embeddedlaboratory.blogspot.com/2018/03/control-devices-using-python-and.html)
 Get temperature and humidity, and Control Devices Using Python and NodeMCU Over Internet.
 ![Python Application](https://4.bp.blogspot.com/-3E40hZ8lQuc/Wpv7Ly1ryzI/AAAAAAAAA2c/-_Mwu1eWn6A3w28ALEj2X2JTqZnKdv2dwCLcBGAs/s1600/Python%2BApplication.PNG)
+### [05-Real Time Temperature Plot](https://embeddedlaboratory.blogspot.com/2017/03/real-time-temperature-monitoring-using.html)
+![Temperature Plot](https://4.bp.blogspot.com/-Q67FzZ-YVdA/WM5zKR6IODI/AAAAAAAAAfE/WwwaRHzImrU_yptZ_XibV2qhpEA1Qq5UgCLcB/s1600/PythonPlot.png)
