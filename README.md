@@ -14,3 +14,12 @@ Get temperature and humidity, and Control Devices Using Python and NodeMCU Over 
 ![Python Application](https://4.bp.blogspot.com/-3E40hZ8lQuc/Wpv7Ly1ryzI/AAAAAAAAA2c/-_Mwu1eWn6A3w28ALEj2X2JTqZnKdv2dwCLcBGAs/s1600/Python%2BApplication.PNG)
 ### [05-Real Time Temperature Plot](https://embeddedlaboratory.blogspot.com/2017/03/real-time-temperature-monitoring-using.html)
 <img src="https://4.bp.blogspot.com/-Q67FzZ-YVdA/WM5zKR6IODI/AAAAAAAAAfE/WwwaRHzImrU_yptZ_XibV2qhpEA1Qq5UgCLcB/s1600/PythonPlot.png" alt="drawing" width="320" height="240"/>
+
+### [06-Watch YouTube Videos](https://embeddedlaboratory.blogspot.com)
+This script will play the YouTube videos using VLC media player.  
+TODO:
+* Check if it is really increasing the views?
+* Load Links from Files instead of entering in the program
+* Provide argument for minimum and maximum run-time
+* Prevent script from crahsing when internet access is lost
+* Change IP address of the computer so that YouTube will not be able to track the views from same IP Address
