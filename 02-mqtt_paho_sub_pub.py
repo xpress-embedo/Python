@@ -1,3 +1,4 @@
+import time
 import paho.mqtt.client as mqtt
 
 # Callback Function on Connection with MQTT Server
@@ -15,7 +16,17 @@ client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
 
-client.connect("m14.cloudmqtt.com", 18410, 60)
-client.username_pw_set("setsmjwc", "apDnKqHRgAjA")
+client.connect("hairdresser.cloudmqtt.com", 17259, 60)
+client.username_pw_set("pyptiouq", "aQp113ENJeO9")
 
-client.loop_forever()
+
+# client.loop_forever()
+client.loop_start()
+time.sleep(1)
+while True:
+    client.publish("Tutorial","Getting Started with MQTT")
+    print ("Message Sent")
+    time.sleep(15)
+
+client.loop_stop()
+client.disconnect()
