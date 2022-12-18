@@ -15,9 +15,8 @@ def on_message( client, userdata, msg):
 client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
-
-client.connect("m14.cloudmqtt.com", 18410, 60)
-client.username_pw_set("setsmjwc", "apDnKqHRgAjA")
+client.username_pw_set("pyptiouq", "aQp113ENJeO9")
+client.connect("hairdresser.cloudmqtt.com", 17259, 60)
 
 
 # client.loop_forever()

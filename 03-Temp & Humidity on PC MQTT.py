@@ -20,10 +20,10 @@ if os.path.exists(filename):
         server_info = pickle.load(myFile)
 else:
     # Create Dictionary Using Default parameters
-    server_info = { "Server_Address":"m14.cloudmqtt.com", \
-                    "Server_Port":"18410", \
-                    "Username": "setsmjwc", \
-                    "Password":"apDnKqHRgAjA"}
+    server_info = { "Server_Address":"hairdresser.cloudmqtt.com", \
+                    "Server_Port":"17259", \
+                    "Username": "pyptiouq", \
+                    "Password":"aQp113ENJeO9"}
     save_file()
 
 
