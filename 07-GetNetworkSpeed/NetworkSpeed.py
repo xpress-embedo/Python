@@ -65,7 +65,7 @@ def main(args):
         uploadSpeed = uploadSpeed/1024
         print (f"Download Speed = {downloadSpeed}, Upload Speed = {uploadSpeed}")
         writeAPI.write(bucket, org, [f"NetworkSpeed,device_id=1 download={downloadSpeed},upload={uploadSpeed}"])
-        time.sleep(30)
+        time.sleep(60)
         
 
 if __name__ == '__main__':
